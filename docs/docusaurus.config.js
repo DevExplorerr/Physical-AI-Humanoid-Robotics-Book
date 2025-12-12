@@ -33,6 +33,7 @@ const config = {
           editUrl:
             'https://github.com/DevExplorerr/physical-ai-humanoid-robotics-book/tree/main/',
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -66,25 +67,25 @@ const config = {
       ],
     },
     footer: {
-  style: 'dark',
-  links: [
-    {
-      title: 'Book',
-      items: [
+      style: 'dark',
+      links: [
         {
-          html: `
+          title: 'Book',
+          items: [
+            {
+              html: `
             <p style="margin: 0; line-height: 1.5;">
               "Physical AI & Humanoid Robotics" explores robotics and AI, making learning engaging, practical, and accessible for everyone.
             </p>
           `,
+            },
+          ],
         },
-      ],
-    },
-    {
-      title: 'Connect with Me',
-      items: [
         {
-          html: `
+          title: 'Connect with Me',
+          items: [
+            {
+              html: `
             <p style="margin: 0; line-height: 1.5;">
               Connect with me on 
               <a href="https://www.linkedin.com/in/muhammadsaadjamal/" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">LinkedIn</a>, 
@@ -93,12 +94,12 @@ const config = {
               <a href="https://discord.com/users/devexplorerr" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">Discord</a>.
             </p>
           `,
+            },
+          ],
         },
       ],
+      copyright: `© ${new Date().getFullYear()} DevExplorerr — Author of Physical AI & Humanoid Robotics.`,
     },
-  ],
-  copyright: `© ${new Date().getFullYear()} DevExplorerr — Author of Physical AI & Humanoid Robotics.`,
-},
 
 
 
