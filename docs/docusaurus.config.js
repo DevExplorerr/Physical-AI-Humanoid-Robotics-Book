@@ -11,7 +11,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://devexplorerr.github.io',
+  url: 'https://physical-ai-humanoid-robotics-book-saad.vercel.app/',
   baseUrl: '/',
 
   organizationName: 'DevExplorerr',
